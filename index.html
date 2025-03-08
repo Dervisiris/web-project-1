@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derviş İriş - Kişisel Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animasyon CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Özel CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: bisque; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#anasayfa">
+                <img src="/gorseller/gorsel1.jpg" width="30px" height="30px" style="border-radius: 5px;" class="me-2">
+                <span class="fw-bold">Derviş İriş</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#anasayfa">Ana Sayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hakkimda">Hakkımda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projeler">Projeler</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#iletisim">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Ana Sayfa -->
+    <section id="anasayfa" class="min-vh-100 d-flex align-items-center" data-aos="fade-down">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <img src="/gorseller/gorsel2.jpg" alt="Profil Fotoğrafı" class="rounded-circle mb-4" width="200">
+                    <h1 class="display-4">Hoş Geldiniz!</h1>
+                    <p class="lead">Merhaba, ben Derviş. KTO Karatay Üniversitesi'nde Bilgisayar Mühendisliği bölümü öğrencisiyim.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hakkımda -->
+    <section id="hakkimda" class="py-5 bg-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-5">Hakkımda</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Eğitim</h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">KTO Karatay Üniversitesi </li>
+                                <li class="list-group-item"> Bilgisayar Mühendisliği (2024-2028)
+                                    <div class="mb-3">
+                                        <p class="mb-2"></p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 25%"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title mb-4">Yetenekler</h3>
+                            <div class="mb-3">
+                                <div class="d-flex justify-content-between align-items-center mb-1">
+                                    <p class="mb-0">HTML/CSS</p>
+                                    <span class="badge bg-primary">35%</span>
+                                </div>
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 35%"></div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="d-flex justify-content-between align-items-center mb-1">
+                                    <p class="mb-0">JavaScript</p>
+                                    <span class="badge bg-success">70%</span>
+                                </div>
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="d-flex justify-content-between align-items-center mb-1">
+                                    <p class="mb-0">C</p>
+                                    <span class="badge bg-info">50%</span>
+                                </div>
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projeler -->
+    <section id="projeler" class="py-5" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-5">Projelerim</h2>
+            <div class="row">
+                <!-- Proje 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="/gorseller/proje1.jpg" class="card-img-top" alt="Proje 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Kişisel Web Sitesi</h5>
+                            <p class="card-text">Bootstrap ve modern web teknolojileri kullanılarak geliştirilmiş kişisel portfolyo sitesi.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">HTML</span>
+                                <span class="badge bg-success me-1">CSS</span>
+                                <span class="badge bg-info">Bootstrap</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="#" class="btn btn-outline-primary btn-sm me-2">Detaylar</a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proje 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="/gorseller/proje2.jpg" class="card-img-top" alt="Proje 2">
+                        <div class="card-body">
+                            <h5 class="card-title">C Programlama Projesi</h5>
+                            <p class="card-text">C dilinde geliştirilmiş konsol uygulaması. Veri yapıları ve algoritmalar kullanıldı.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-warning me-1">C</span>
+                                <span class="badge bg-secondary">Algoritma</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="#" class="btn btn-outline-primary btn-sm me-2">Detaylar</a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proje 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="/gorseller/proje3.jpg" class="card-img-top" alt="Proje 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Okul Projesi</h5>
+                            <p class="card-text">Üniversite dersi kapsamında geliştirilen grup projesi. Takım çalışması deneyimi.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">HTML</span>
+                                <span class="badge bg-danger me-1">JavaScript</span>
+                                <span class="badge bg-success">CSS</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="#" class="btn btn-outline-primary btn-sm me-2">Detaylar</a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim -->
+    <section id="iletisim" class="py-5 bg-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-5">İletişim</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="isim" class="form-label">İsim Soyisim</label>
+                                    <input type="text" class="form-control" id="isim" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">E-posta Adresi</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="konu" class="form-label">Konu</label>
+                                    <input type="text" class="form-control" id="konu" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mesaj" class="form-label">Mesajınız</label>
+                                    <textarea class="form-control" id="mesaj" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Gönder</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4">İletişim Bilgileri</h5>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-envelope me-3"></i>
+                                <span>dervisiris0@gmail.com</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-phone me-3"></i>
+                                <span>+90 533 026 87 82</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-map-marker-alt me-3"></i>
+                                <span>Konya, Türkiye</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <div class="mb-3">
+                <a href="#" class="text-white me-3"><i class="fab fa-github fa-lg"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+            </div>
+            <p class="mb-0">&copy; 2024 Derviş İriş. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animasyon JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html> 
